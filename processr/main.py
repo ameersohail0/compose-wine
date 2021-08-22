@@ -26,6 +26,7 @@ class DataIn(BaseModel):
     hue: float
     od280_od315_of_diluted_wines: float
     proline: float
+    wine_class: str
 
 
 # Route definitions
