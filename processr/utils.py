@@ -10,11 +10,18 @@ r_classes = {y: x for x, y in classes.items()}
 def process_data(data):
     processed = [
         {
-            "sepal_length": d.sepal_length,
-            "sepal_width": d.sepal_length,
-            "petal_length": d.petal_length,
-            "petal_width": d.petal_width,
-            "flower_class": d.flower_class,
+            "alcohol": d.alcohol,
+            "malic_acid": d.malic_acid,
+            "ash": d.ash,
+            "alcalinity_of_ash": d.alcalinity_of_ash,
+            "magnesium": d.magnesium,
+            "total_phenols": d.total_phenols,
+            "flavanoids": d.flavanoids,
+            "nonflavanoid_phenols": d.proanthocyanins,
+            "color_intensity": d.color_intensity,
+            "hue": d.hue,
+            "od280_od315_of_diluted_wines": d.od280_od315_of_diluted_wines,
+            "proline": d.proline,
         }
         for d in data
     ]
