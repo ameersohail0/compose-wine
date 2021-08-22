@@ -1,6 +1,9 @@
 # Docker Demo/Assignment
 
-https://github.com/PGCSEDS-IIITH/compose-iris contains code which demonstrates docker and docker-compose using the IRIS dataset (https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html)
+Ameer Sohail
+Week 9 Assignment
+
+https://github.com/ameersohail0/compose-wine contains code which demonstrates docker and docker-compose using the Wine dataset (https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_wine.html
 
 
 ## Pre-requisites
@@ -9,12 +12,12 @@ https://github.com/PGCSEDS-IIITH/compose-iris contains code which demonstrates d
 
 ## Running Instructions
 - Create a fork of the repo using the `fork` button.
-- Clone your fork using `git clone https://www.github.com/<your-username>/compose-iris.git`
+- Clone your fork using `git clone https://github.com/ameersohail0/compose-wine.git`
 - Build the images using `docker-compose build`
 - Spin up the containers using `docker-compose up`
 
 ## Assignment Task
-Implement this stack for some dataset of your choice
+Implement this stack for some dataset of your choice - Implemented for Wine Dataset
 
 ## Submission
-Submit a link to your forked repository
+Submit a link to your forked repository - https://github.com/ameersohail0/compose-wine.git
