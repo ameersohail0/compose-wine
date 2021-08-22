@@ -19,4 +19,4 @@ def load_model():
 def predict(query_data):
     x = list(query_data.dict().values())
     prediction = clf.predict([x])[0]
-    return classes[prediction]
+    return prediction
